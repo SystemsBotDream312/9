@@ -1,7 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
-var adminprefix = '1'
+var prefix = "9";
+var adminprefix = '9'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
@@ -15,7 +15,7 @@ var channel = "528071143601602560";//ايدي الروم
 })
 
     client.on('message', message => {
-        var prefix = "1";
+        var prefix = "9";
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
